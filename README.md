@@ -11,12 +11,12 @@ Die Flächen habe ich dann in Rot und Blau eingefärbt um so den 3D-Effekt zu er
 Dann habe ich mir überlegt Schrift einzufügen. Also verwendete ich den h1-Tag und setzte so den "SVG Glitch" Schriftzug unter meine Fledermaus. Als Schriftart wählte ich "courier new", da ich sie passend zu dem Thema Glitch fand. Ich habe mir überlegt wie auch bei der Fledermaus die Schrift mit einem 3D-Effekt darzustellen, also fügte ich den Schriftzug erneut ein und färbte einen rot und den anderen blau. Nach langem rumprobieren gelang es mir jedoch nicht die Schriften übereinander zu setzen, also ließ ich es so stehe, da mir das auch so ziemlich gut gefallen hat.
 Zum Schluss wollte ich noch Bewegung einfügen. Ich recherchierte also im Interner und habe den animate-Tag gefunden. Ich habe ihn dann zunächst so eingesetzt:
   
-animateTransform attributeName="transform"
+*animateTransform attributeName="transform"
 type="translate"
 from="-520 20"
 to="520 20"
 begin="0s"
 dur="5s"
-repeatCount="indefinite"
+repeatCount="indefinite"*
 
 So bewegte sich meine Fledermaus einfach von links nach rechts. So wollte ich meinen Glitch lassen und abgeben, jedoch habe ich dann ein bisschen an dem Tag rumprobiert und die "duration" von 5s auf 0,01s verändert, sodass die Fledermaus anfing zu "glitchen".
